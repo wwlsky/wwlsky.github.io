@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>http-server 本地http服务器</title>
+      <link href="/2017/05/14/http-server/"/>
+      <url>/2017/05/14/http-server/</url>
+      <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yarn global add http-server</span><br></pre></td></tr></table></figure><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ http-server [path] [options]</span><br></pre></td></tr></table></figure>]]></content>
+      
+      <categories>
+          
+          <category> http server </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> node.js </tag>
+            
+            <tag> http-server </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo 使用</title>
+      <link href="/2016/06/10/hexo-use/"/>
+      <url>/2016/06/10/hexo-use/</url>
+      <content type="html"><![CDATA[<blockquote><p>hexo 部署到 github</p></blockquote><h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span>    <span class="comment"># 库（Repository）地址</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">[branch]</span>          <span class="comment"># 分支名称</span></span><br></pre></td></tr></table></figure><h2 id="发布命令流程"><a href="#发布命令流程" class="headerlink" title="发布命令流程"></a>发布命令流程</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g  <span class="comment"># 生成新的静态文件</span></span><br><span class="line">hexo d  <span class="comment"># 发布到GitHub</span></span><br></pre></td></tr></table></figure><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener"># 官方文档</a></p>]]></content>
+      
+      <categories>
+          
+          <category> 博客系统 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+  
+  
+</search>
